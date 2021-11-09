@@ -21,7 +21,7 @@ sonarqube {
      // property 'sonar.host.url', 'http://localhost:9000'
         property 'sonar.host.url', 'https://sonarqube.tools-team.paradymelab.net'
     //  property 'sonar.login', 'admin'
-        property 'sonar.login', 'secrets/creds/paradyme (sonar-pat)'
+        property 'sonar.login', 'sonar-pat'
     //  property 'sonar.password', property('sonarPassword')
     }
 }
