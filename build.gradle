@@ -18,9 +18,11 @@ dependencies {
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://localhost:9000'
-        property 'sonar.login', 'admin'
-        property 'sonar.password', property('sonarPassword')
+     // property 'sonar.host.url', 'http://localhost:9000'
+        property 'sonar.host.url', 'https://sonarqube.tools-team.paradymelab.net'
+    //  property 'sonar.login', 'admin'
+        property 'sonar.login', 'sonar-pat'
+    //  property 'sonar.password', property('sonarPassword')
     }
 }
 
